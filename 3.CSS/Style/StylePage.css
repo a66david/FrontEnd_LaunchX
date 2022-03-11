@@ -1,0 +1,567 @@
+
+body{ 
+    width: 1800px;
+    height: 1200px;
+
+    background-color:rgba(181, 218, 235, 0.274);
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Head board */
+.headboard{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:flex-end;
+   gap: 30px;
+   position:-webkit-sticky;
+   top: 0px;
+   left: -40px;
+   
+}
+
+
+
+.vaccination{
+    text-align: left;
+    position:relative;
+    font-size:30px;
+    top: -50px;
+    left: -900px;
+    color: rgb(11, 11, 116);
+}
+
+
+
+button{
+
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.041);
+    background-color: rgba(241, 240, 240, 0.637);
+    padding: 10px;
+
+}
+
+
+
+.hoaxbuster_buttom{
+    background-color: rgba(57, 115, 238, 0.993);
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.048);
+    
+}
+
+/* Body 1*/
+
+
+.Info{
+    display:flexbox;
+    position: relative;
+    font-size: 20px;
+    top: -100px;
+    left: -200px;
+    
+}
+
+
+.image{
+    position:relative;
+    top: -30px;
+    left: 1000px;
+    
+}
+
+.enfer{
+    width: 1000px;
+    height: 600px;
+}
+
+.info1{
+    position: relative;
+    top: 100px;
+    left: 420px;
+}
+
+.title1{
+    color: rgb(11, 11, 116);
+
+}
+
+.introduccion{
+    text-align: center;    
+}
+
+.obj1{
+    position: relative;
+    top: -280px;
+    left: 430px;
+}
+
+.img_obj1{
+    width: 15px;
+    height: 15px;
+}
+
+.obj2{
+    position: relative;
+    top: -303px;
+    left: 630px;
+}
+
+.img_obj2{
+    width: 15px;
+    height: 15px;
+}
+
+.schedule{
+    color: rgb(11, 11, 116);
+    font-size: 20px;
+    position: relative;
+    top: -400px;
+    left: 450px;
+}
+
+/* Form */
+.form{
+    position: relative;
+    left: -200px;
+}
+
+.cd{
+    background-color: rgba(255, 253, 253, 0.507);
+    border-color: rgba(217, 224, 230, 0.74);
+    position: relative;
+    width: 600px;
+    height: 64px;
+    top: -370px;
+    left: 580px;
+}
+
+.dateform{
+    position: relative;
+    top: -430px;
+    left: 600px;
+}
+
+.img_form{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 90px;
+    position: relative;
+    left: 5px;
+    
+}
+
+.location{
+    
+    width: 15px;
+    height: 15px;
+
+}
+
+.date{
+    
+    width: 15px;
+    height: 15px;
+}
+
+.VaccineType{
+    
+    width: 15px;
+    height: 15px;
+}
+
+.summit{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(57, 115, 238, 0.993);
+    position: relative;
+    left: 12px;
+    top: -10px;
+    width: 120px;
+}
+
+
+
+/* Types vaccines */
+
+
+
+
+.imgTypeVaccine{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    position: relative;
+    left: 200px;
+    top: -220px;
+    
+}
+
+.Aztra{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -15px;
+}
+
+.Sinovac{
+    width: 300px;
+    height: 100px;
+}
+
+.Pfizer{
+    width: 300px;
+    height: 100px;
+}
+
+.Moderna{
+    width: 300px;
+    height: 100px;
+}
+
+/* body 2 */
+
+
+
+.body_2title{
+    position: absolute;
+    top: 1050px;
+    left: 50px;
+    width: 380px;
+}
+
+
+
+.title2{
+    position: relative;
+    left: 150px;
+}
+
+.title_2{
+    font-size: 40px;
+    color: rgb(11, 11, 116);
+}
+
+.beneficts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px; 
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+
+.beneficts1{
+    position: relative;
+    width: 200px;
+    height: 210px;
+    border-style:inset;
+    border-color: rgba(255, 255, 255, 0.089);
+    
+}
+
+.setting{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+}
+
+.beneficts2{
+    position: relative;
+    width: 200px;
+    height: 210px;
+    border-style:inset;
+    border-color: rgba(255, 255, 255, 0.11);
+    
+}
+
+.Scude{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+}
+
+.beneficts3{
+    position: relative;
+    width: 200px;
+    height: 210px;
+    border-style:inset;
+    border-color: rgba(255, 255, 255, 0.089);
+   
+}
+
+.people{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+}
+.beneficts4{
+    position: relative;
+    width: 200px;
+    height: 210px;
+    border-style:inset;
+    border-color: rgba(255, 255, 255, 0.089);
+    
+}
+
+.immunity{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+}
+
+/* Body 3 */
+
+
+.body3{
+
+}
+
+.cuadro{
+    background-color: rgb(41, 138, 250);
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: 730px;
+    left: 200px;
+}
+
+.imgdoc{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    left: 300px;
+    top: 150px;
+}
+
+.title_3{
+    font-size: 20px;
+    position: relative;
+    left: 1000px;
+    top: -500px;
+    width: 500px;
+}
+.title3{
+    color: rgb(11, 11, 116);
+}
+
+.seccion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    gap: 25px;
+    left: 1000px;
+    top: -450px;
+    
+}
+.seccion_info{
+    border-style:inset;
+    border-color: rgba(172, 168, 168, 0.089);
+    width: 430px;
+}
+
+.scude{
+    width: 20px;
+    height: 20px;
+}
+
+.seccion_info2{
+    border-style:inset;
+    border-color: rgba(172, 168, 168, 0.089);
+    width: 430px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.seccion_info3{
+    border-style:inset;
+    border-color: rgba(172, 168, 168, 0.089);
+    width: 430px;
+}
+
+.grafic{
+    width: 20px;
+    height: 20px;
+}
+
+.seccion_info4{
+    border-style:inset;
+    border-color: rgba(172, 168, 168, 0.089);
+    width: 430px;
+}
+
+.like{
+    width: 20px;
+    height: 20px;
+}
+
+.seccion_info5{
+    border-style:inset;
+    border-color: rgba(172, 168, 168, 0.089);
+    width: 430px;
+}
+
+.health{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*Body 4  */
+
+.body4{
+    position:relative;
+    left: -200px;
+}
+
+.title5{
+    color:rgb(11, 11, 116);
+    font-size: 30px;
+    position:relative;
+    top: -350px;
+    left: 350px;
+}
+
+.family{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: -300px;
+    left: 1000px;
+}
+.comunication{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    width: 360px;
+    position: relative;
+    top: -690px;
+    left: 380px;
+    
+    
+}
+
+
+
+.calln{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(241, 240, 240, 0.637);
+    padding: 10px;
+    color: rgb(24, 69, 151);
+
+}
+
+.telefone{
+    width: 30px;
+    height: 30px;
+}
+
+.chatimg{
+    width: 30px;
+    height: 30px;
+}
+
+.chatn{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(241, 240, 240, 0.637);
+    padding: 10px;
+    color: rgb(24, 69, 151);
+}
+
+.video{
+
+}
+
+.videocamara{
+    width: 30px;
+    height: 30px;
+}
+
+.videon{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(241, 240, 240, 0.637);
+    padding: 10px;
+    color: rgb(24, 69, 151);
+}
+
+.message{
+
+}
+
+.messagen{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(241, 240, 240, 0.637);
+    padding: 10px;
+    color: rgb(24, 69, 151);
+}
+
+.email{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.feetpage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 190px;
+    background-color: rgba(2, 120, 255, 0.11);
+    position: relative;
+    left: 1px;
+    top: -400px;
+    width: 1900px;
+    height: 300px;
+}
+
+.terms{
+    display: flex;
+    flex-wrap: inherit;
+    gap: 430px;
+}
+
+.Vacc{
+    color: rgb(11, 11, 116);
+    font-size: 30px;
+}
+
+.abouts{
+    color: rgb(11, 11, 116);
+    font-size: 30px;
+}
+
+.how{
+    color: rgb(11, 11, 116);
+    font-size: 30px;
+}
+
+.faqs{
+    color: rgb(11, 11, 116);
+    font-size: 30px;
+}
+
+.terms{
+    position: relative;
+    top: -190px;
+}
