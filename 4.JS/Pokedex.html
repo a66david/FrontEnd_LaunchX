@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poquedex</title>
+    <link rel="stylesheet" href="./Style/Stylepage.css">
+
+</head>
+<body>
+    <header>
+        <img src="./Images/TituloUniversoPokémon.png" alt="Pokemon" class="Pokemon">
+    </header>
+
+    <img src="./Images/pokedex_ccexpress.png" alt="pokedex" class="pokedex">
+    
+     <section class=" busqueda">
+
+        <img src="./Images/pokebola.png" alt="pokebola" class="pokebola" id="pokeImg" >
+        <input type="text" placeholder="Nombre o ID" id="pokeName" name="pokeName" class="pokeName">
+        <button onclick="fetchPokemon()" id="buscarPokemon" class="buscar">buscar</button>
+        
+    </section>
+
+    
+    
+    <section class="nombreType">
+
+                <h2 id="nombres" class="nombre"></h2>
+                 
+                <h2 id="type" class="tipo"></h2> 
+    </section>
+
+    <section id="pokeDatos" class="pokedatos">
+
+            <div class="hp"> 
+                <img src="./Images/health.png" alt="hp" class="hpimg">
+                <p id="hp"></p>
+            </div>
+
+            <div class="attack">
+                <img src="./Images/Attack.png" alt="attack" class="attimg">
+                <p id="attack"></p>
+            </div>
+            
+            <div class="defense">
+                <img src="./Images/Defense.png" alt="Defense" class="defimg">
+                <p id="defense"></p>
+            </div>
+             
+            <div class="sAttack">
+                <img src="./Images/Special-Attack.png" alt="Special-Attack" class="spAttimg">
+                <p id="specialAtt"></p>
+            </div>
+            
+            <div class="sDefense">
+                <img src="./Images/Special-Defense.png" alt="specialDefense" class="spDefimg">
+                <p id="specialDef"></p>
+            </div>
+            
+            <div class="speed">
+                <img src="./Images/Speed.png" alt="Speed" class="speedimg">
+                <p id="speed"></p>
+            </div>
+        
+    </section>
+    
+    <section class="pokeMovi">
+
+        <ul>Movimientos
+            <li id="mov1"></li>
+            <li id="mov2"></li>
+            <li id="mov3"></li>
+            <li id="mov4"></li>
+        </ul>
+    </section>
+</body>
+<footer>
+    <script src="./Js/pokedex.js"></script>
+</footer>
+</html>

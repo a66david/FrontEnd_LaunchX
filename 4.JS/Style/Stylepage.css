@@ -1,0 +1,110 @@
+html, body{
+    box-sizing: border-box;
+    max-width: 1500px;
+    display: contents;  
+    content: normal;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    position:absolute;
+    left: 600px;
+}
+
+.Pokemon{
+    position: relative;
+    display: flex;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+/* .pokedex */
+
+.pokedex{
+    position: relative;
+    top: -29px;
+    left: -150px;
+    width: 180%;
+    height: 180%;
+}
+
+.busqueda{
+    position:relative;
+    top: -870px;
+    left: 35%;
+}
+
+.pokebola {
+    position: relative;
+    left: 40px;
+    width: 10%;
+    height: 10%;
+}
+
+
+.pokeName{
+    position: relative;
+    top: 190px;
+    left: -90px;
+    height: 30px;
+    background-color: rgba(238, 238, 238, 0.747);
+    border-style: hidden;
+    border-color: rgba(136, 132, 132, 0.39);
+    text-align: center;
+}
+.buscar{
+    position: relative;
+    top: 190px;
+    left: -40px;
+    height:100px ;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: rgba(255, 255, 255, 0.733);
+}
+
+
+.nombreType{
+    position: absolute;
+    left: 38%;
+    top: 470px;
+    background-color: rgba(201, 201, 201, 0.233);
+    height: 100px;
+    width: 160px;
+    text-align: center;
+    
+}
+
+.pokedatos{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 100px;
+    top: 460px;
+    left: 60%;
+}
+
+.hpimg, .attimg, .defimg , .spAttimg, .spDefimg, .speedimg{
+    height: 40%;
+    width: 40%;
+}
+
+
+.hp, .attack, .defense, .sAttack, .sDefense, .speed{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50px;
+    height: 50px;
+}
+
+.pokeMovi{
+    position:absolute;
+    background-color: rgba(201, 201, 201, 0.658);
+    height: 140px;
+    width: 180px;
+    top: 435px;
+    left: 69%;
+}
